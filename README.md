@@ -4,14 +4,14 @@ ___OVERVIEW___
 >The project was written without using QGraphicsItem!
 
 Actions:
-+ Rectangle, Triangle, Ellipse – when any of these buttons are activated, the next left mouse click in the workspace
++ Rectangle, Triangle, Ellipse â€“ when any of these buttons are activated, the next left mouse click in the workspace
 starts drawing the corresponding shape. 
 The upper left point of the shape is the mouse click point, the lower right is the current mouse coordinates
 (the ellipse and triangle fit into the rectangle with these coordinates).
 When you release the left mouse button, the drawing of the shape is completed, it is added to the workspace. 
 If the right mouse button or Esc button was pressed before releasing the left button, drawing is interrupted and the shape is not added 
 to the workspace.
-+ Link – when this button is activated, clicking on any shape in the workspace starts drawing a link (line) from the center of this shape
++ Link â€“ when this button is activated, clicking on any shape in the workspace starts drawing a link (line) from the center of this shape
 to the current coordinates of the cursor. When you click on another shape again, 
 a link between the first and second shapes is added to the workspace. 
 If the repeated click was made not on the figure, or on the initial figure, 
@@ -22,7 +22,7 @@ When you release the left mouse button, the movement of the shape is completed. 
 is pressed or Esc is pressed. 
 + Delete - When activating this button, clicking on any shape in the workspace causes it to be deleted,
 along with all its connections. 
-+ Upload, Save – upload and save a picture to a txt.file. 
++ Upload, Save â€“ upload and save a picture to a txt.file. 
 After loading, it is possible to continue drawing (adding, moving, deleting, etc.) shapes.
 
 ___BUILDING AND RUNNING THE APP___
@@ -42,9 +42,3 @@ Then for running the app:
 ___SCREENSHOTS___
 
 ![](view.png)
-
-***
-___VIDEO_PREVIEW___
-
-
-![](video.mp4)
